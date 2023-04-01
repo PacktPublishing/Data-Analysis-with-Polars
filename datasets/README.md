@@ -30,3 +30,37 @@ This dataset contains a list of video games with sales greater than 100,000 copi
 
   File name: `video_games_sales.csv`<br>
   Citation: Gregory Smith. (2022). Video Games Sales [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5898311
+
+- **Video Games Reviews** (Source: [https://nijianmo.github.io/amazon/index.html](https://nijianmo.github.io/amazon/index.html))<br>
+The dataset contains Amazon video games reviews for video games with over 350 reviews.
+  - **reviewerID**: ID of the reviewer.
+  - **asin**: ID of the product.
+  - **reviewerName**: Name of the reviewer.
+  - **vote**: Helpful votes of the review.
+  - **format**: The format of the product, e.g., "Format" is "Hardcover".
+  - **reviewText**: Text of the review.
+  - **overall**: Rating of the product.
+  - **summary**: Summary of the review.
+  - **unixReviewTime**: Time of the review (Unix time).
+  - **reviewTime**: Time of the review (raw).
+  - **image**: Images that users post after they have received the product.
+  - **title**: Title of the product.
+
+  File name: `reviews_videogames_350.csv`<br>
+  Citation: Jianmo Ni, UCSD. Amazon Review Data (2018)
+
+- **Video Games Metadata** (Source: [https://nijianmo.github.io/amazon/index.html](https://nijianmo.github.io/amazon/index.html))<br>
+The dataset contains Amazon video games metadata for video games with over 350 reviews.
+  - **asin**: ID of the product.
+  - **title**: Title of the product.
+  - **feature**: List of features or descriptions for the product.
+  - **description**: Description of the product.
+  - **price**: Price of the product.
+  - **imageURL**: URL of the product image (low resolution).
+  - **imageURLHighRes**: URL of the product image (high resolution).
+  - **also_buy**: List of ASINs for products that customers also bought.
+  - **also_view**: List of ASINs for products that customers also viewed.
+  - **salesRank**: Dictionary containing the sales rank of the product in different categories.
+
+  File name: `meta_videogames_350.json`<br>
+  Citation: Jianmo Ni, UCSD. Amazon Review Data (2018)
